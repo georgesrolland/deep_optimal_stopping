@@ -6,7 +6,7 @@ The main idea is simple: instead of learning the option price directly, I learn 
 
 The current repository focuses on the first part of the method: **learning the stopping policy and reproducing the lower-bound benchmark**.
 
-**Current notebook:** [`01_deep_optimal_stopping_lower_bound_.ipynb`](notebooks/01_deep_optimal_stopping_lower_bound.ipynb)
+**Current notebook:** [`01_deep_optimal_stopping_lower_bound.ipynb`](notebooks/01_deep_optimal_stopping_lower_bound.ipynb)
 
 ## Why this problem?
 
