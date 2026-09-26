@@ -21,7 +21,7 @@ $$
 The option value is
 
 $$
-V_0 = \sup_{\tau\in\mathcal T}\mathbb E\left[g(\tau,S_\tau)\right],
+V_0 = \sup_{\tau\in\mathcal T}\mathbb E\left[g(\tau,S_{t_\tau})\right],
 $$
 
 where $\tau$ is a stopping time taking values on the Bermudan exercise grid.
