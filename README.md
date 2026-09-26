@@ -6,7 +6,7 @@ The main idea is simple: instead of learning the option price directly, I learn 
 
 The current repository focuses on the first part of the method: **learning the stopping policy and reproducing the lower-bound benchmark**.
 
-**Current notebook:** [`01_deep_optimal_stopping_lower_bound_.ipynb`](notebooks/01_deep_optimal_stopping_lower_bound_.ipynb)
+**Current notebook:** [`01_deep_optimal_stopping_lower_bound_.ipynb`](notebooks/01_deep_optimal_stopping_lower_bound.ipynb)
 
 ## Why this problem?
 
@@ -118,7 +118,7 @@ The final lower bound is evaluated out of sample. As the independent evaluation 
 This separates two distinct sources of numerical error:
 
 - **Monte Carlo evaluation error**: uncertainty in the value of a fixed learned policy;
-- **policy error**: the distance between the learned exercise rule and the unknown optimal stopping rule.
+- **Policy error**: the distance between the learned exercise rule and the unknown optimal stopping rule.
 
 Only the first is measured by the reported Monte Carlo standard error.
 
