@@ -26,7 +26,7 @@ $$
 
 where $\tau$ is a stopping time taking values on the Bermudan exercise grid.
 
-The difficulty is that the continuation value becomes increasingly expensive to approximate as the state dimension grows. Becker et al. address this by learning the stopping policy directly with neural networks.
+The difficulty is that, at each exercise date, the holder must compare the immediate payoff with the continuation value — the expected value of keeping the option alive and exercising optimally later. Approximating this continuation value becomes increasingly expensive as the state dimension grows. Becker et al. address this by learning the stopping policy directly with neural networks.
 
 ## Method
 
